@@ -39,5 +39,5 @@ server.get('/ytmp3/https://youtu.be/:id', (req, res) => {
 
 console.log('Apis rodando!');
 server.listen(port, () => {
-    console.log(`rodando na porta: ${port}`)
-             );
+    console.log(`rodando na porta: ${port}`);
+});
