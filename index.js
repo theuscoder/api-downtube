@@ -38,6 +38,6 @@ server.get('/ytmp3/https://youtu.be/:id', (req, res) => {
 // fim download youtube
 
 console.log('Apis rodando!');
-server.listen(port, () +> {
+server.listen(port, () => {
     console.log(`rodando na porta: ${port}`)
              );
