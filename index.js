@@ -1,5 +1,6 @@
 const express = require('express');
 const server = express();
+const port = process.env.PORT || 4000;
 const vid = require('./apis/down/ytvd.js');
 const aud = require('./apis/down/ytaud.js');
 const { error } = require('console');
@@ -37,4 +38,6 @@ server.get('/ytmp3/https://youtu.be/:id', (req, res) => {
 // fim download youtube
 
 console.log('Apis rodando!');
-server.listen(3000);
+server.listen(port, () +> {
+    console.log(`rodando na porta: ${port}`)
+             );
