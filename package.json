@@ -1,0 +1,16 @@
+{
+  "name": "yt-down",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.9",
+    "ytdl-core": "npm:@distube/ytdl-core@^4.15.8"
+  }
+}
